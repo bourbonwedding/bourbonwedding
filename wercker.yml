@@ -17,6 +17,6 @@ deploy:
 
     - burrbd/gh-pages@0.2.3:
         token: $GIT_TOKEN
-        domain: bourbonwedding.github.io
+        domain: www.bourbonwedding.com
         basedir: public
         repo: bourbonwedding/bourbonwedding.github.io
