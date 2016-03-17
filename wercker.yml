@@ -6,17 +6,17 @@ build:
         theme: bourbonwedding
         flags: --buildDrafts=false
 
-# deploy:
-#   steps:
-#     - script:
-#         name: Install packages
-#         code: |
-#           apt-get update
-#     - install-packages:
-#         packages: git ssh-client
+deploy:
+  steps:
+    - script:
+        name: Install packages
+        code: |
+          apt-get update
+    - install-packages:
+        packages: git ssh-client
 
-    # - burrbd/gh-pages@0.2.3:
-    #     token: $GIT_TOKEN
-    #     domain: www.bourbonwedding.com
-    #     basedir: public
-    #     repo: mattstratton/bourbonwedding.github.io
+    - burrbd/gh-pages@0.2.3:
+        token: $GIT_TOKEN
+        domain: bourbonwedding.github.io
+        basedir: public
+        repo: bourbonwedding/bourbonwedding.github.io
