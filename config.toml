@@ -1,7 +1,7 @@
 baseurl = "http://bourbonwedding.github.io/"
 languageCode = "en-us"
 title = "Matt and Andrea - Oct 1, 2016"
-theme = "bourbonwedding"
+theme = "bw-reponsive"
 canonifyurls = false
 buildFuture = false
 buildDrafts = false
