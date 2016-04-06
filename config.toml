@@ -6,7 +6,7 @@ canonifyurls = false
 buildFuture = false
 buildDrafts = false
 dataDir = "data"
-disqusShortname = "arresteddevops"
+disqusShortname = "bourbonwedding"
 archetypedir = "archetypes"
 [permalinks]
 	page = "/:filename/"
