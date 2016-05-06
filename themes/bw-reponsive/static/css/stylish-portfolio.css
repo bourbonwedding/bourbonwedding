@@ -20,6 +20,11 @@ body {
   background-color: #8abfdf;
 }
 
+.bg-primary a {
+  color: #FFF;
+  text-decoration: underline;
+}
+
 .text-vertical-center {
     display: table-cell;
     text-align: center;
